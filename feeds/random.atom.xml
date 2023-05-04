@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>kalelewismiller.com - Random</title><link href="https://kalelewismiller.com/" rel="alternate"></link><link href="https://kalelewismiller.com/feeds/random.atom.xml" rel="self"></link><id>https://kalelewismiller.com/</id><updated>2023-05-04T02:35:00+10:00</updated><entry><title>Hello World!</title><link href="https://kalelewismiller.com/hello.html" rel="alternate"></link><published>2023-05-04T02:35:00+10:00</published><updated>2023-05-04T02:35:00+10:00</updated><author><name>Kale Miller</name></author><id>tag:kalelewismiller.com,2023-05-04:/hello.html</id><summary type="html">&lt;p&gt;Every great journey starts with a single step.&lt;/p&gt;</summary><content type="html">&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;Hello, world!&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;It has been a recent goal of mine to start to unload a few more of my thoughts.
+It's very easy to get caught up in the day-to-day of life and never stop to 
+write down all of the wisdom you accumulate over time. &lt;/p&gt;
+&lt;p&gt;I hope that this blog will become a sink for everything going on in my mind:
+coding tricks and techniques I learn, random thoughts from my walks, and 
+experiences that I think would be selfish for me to keep to myself.&lt;/p&gt;
+&lt;p&gt;I hope that not only do I look at this blog and become proud of the work I
+put in, but you too are able to take something away from it of value.&lt;/p&gt;</content><category term="Random"></category></entry></feed>
