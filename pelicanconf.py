@@ -1,12 +1,12 @@
 AUTHOR = 'Kale Miller'
 SITENAME = 'blog.kalemiller.com'
-SITEURL = 'blog.kalemiller.com'
+SITEURL = 'https://blog.kalemiller.com'
 
 PATH = 'content'
 
 TIMEZONE = 'Australia/Sydney'
-
 DEFAULT_LANG = 'en'
+THEME = "graymill"
 
 USE_FOLDER_AS_CATEGORY = True
 OUTPUT_RETENTION = ["CNAME"]
@@ -18,17 +18,30 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
-# Blogroll
-LINKS = (('Pelican', 'https://getpelican.com/'),
-         ('Python.org', 'https://www.python.org/'),
-         ('Jinja2', 'https://palletsprojects.com/p/jinja/'),
-         ('You can modify those links in your config file', '#'),)
+# Theme-required config
+LINKS = (
+    ('LinkedIn', 'https://linkedin.com/in/kalelewismiller'),
+    ('Twitter', 'https://twitter.com/KaleLewisMiller'),
+    ('Github', 'https://github.com/kmiller96'),
+)
+SOCIAL = (
+    ('linkedin', 'https://linkedin.com/in/kalelewismiller'),
+    ('github', 'https://github.com/kmiller96'),
+    ('twitter', 'https://twitter.com/KaleLewisMiller'),
+)
 
-# Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SITEDESCRIPTION = "Musings on code, life, and everything else."
+DISPLAY_SUMMARY = True
+DISPLAY_PAGES_ON_MENU = True
 
-DEFAULT_PAGINATION = 50
+DEFAULT_PAGINATION = 8
+
+FAVICON = 'images/favicon.png'
+STATIC_PATHS = ['images', 'extras']
+EXTRA_PATH_METADATA = {
+    'extras/.htaccess': {'path': '.htaccess'},
+    'extras/robots.txt': {'path': 'robots.txt'},
+}
 
 # Uncomment following line if you want document-relative URLs when developing
 RELATIVE_URLS = True
