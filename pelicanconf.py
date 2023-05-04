@@ -1,6 +1,6 @@
 AUTHOR = 'Kale Miller'
-SITENAME = 'kalelewismiller.com'
-SITEURL = ''
+SITENAME = 'blog.kalemiller.com'
+SITEURL = 'blog.kalemiller.com'
 
 PATH = 'content'
 
@@ -28,4 +28,4 @@ SOCIAL = (('You can add links in your config file', '#'),
 DEFAULT_PAGINATION = 50
 
 # Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
+RELATIVE_URLS = True
