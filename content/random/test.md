@@ -1,7 +1,6 @@
 Title: Hello World!
 Summary: Every great journey starts with a single step.
 Date: 2023-05-04 2:35
-Category: Random
 Slug: hello
 
 ```python
