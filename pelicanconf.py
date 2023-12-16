@@ -6,7 +6,7 @@ PATH = 'content'
 
 TIMEZONE = 'Australia/Sydney'
 DEFAULT_LANG = 'en'
-THEME = "graymill"
+THEME = ".theme"
 
 USE_FOLDER_AS_CATEGORY = True
 OUTPUT_RETENTION = ["CNAME"]
