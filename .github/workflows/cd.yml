@@ -32,3 +32,5 @@ jobs:
           key: ${{ secrets.SSH_KEY }}
           source: "output/"
           target: "kalemiller.com/blog/"
+          strip_components: 1
+          rm: true
